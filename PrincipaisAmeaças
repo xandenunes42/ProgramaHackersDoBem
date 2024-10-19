@@ -1,0 +1,79 @@
+ENGENHARIA SOCIAL 
+
+A engenharia social é uma forma de manipulação psicológica que visa obter informações confidenciais, acesso a sistemas ou realizar ações prejudiciais. 
+Ao contrário dos métodos tradicionais de invasão digital que se baseiam em vulnerabilidades técnicas, 
+a engenharia social explora a vulnerabilidade humana, muitas vezes usando astúcia e persuasão para atingir seus objetivos. 
+
+Phishing
+O phishing é uma técnica em que o atacante envia e-mails ou mensagens fraudulentas que parecem ser de fontes confiáveis, como bancos ou serviços online. 
+O objetivo é induzir a vítima a clicar em um link malicioso ou a fornecer informações pessoais, como senhas e números de cartão de crédito. 
+Os sites criados pelos atacantes costumam ser muito semelhantes aos originais, tornando difícil a identificação do golpe.
+
+Pretexting
+No pretexting, o atacante cria uma falsa identidade ou situação para obter informações de uma pessoa. Por exemplo, o golpista pode se passar por um funcionário de uma empresa ou 
+um agente de suporte técnico e solicitar dados confidenciais sob o pretexto de uma "verificação de segurança". Essa técnica depende da construção de um enredo convincente que 
+leve a vítima a acreditar na legitimidade do pedido.
+
+Baiting
+Baiting envolve o uso de iscas físicas ou digitais para atrair a vítima. Um exemplo comum é deixar um pen drive infectado em um local público, como um estacionamento, 
+esperando que alguém o encontre e conecte ao seu computador. Também pode ocorrer em ambientes digitais, onde o atacante oferece algo atraente, como downloads gratuitos ou 
+acesso a conteúdo exclusivo, que, ao serem acessados, comprometem a segurança do usuário.
+
+Ataque Evil Twin
+O ataque Evil Twin envolve a criação de uma rede Wi-Fi falsa que imita uma rede legítima (como a de um café ou de uma empresa). 
+Quando usuários se conectam a essa rede, o atacante pode monitorar o tráfego, capturar dados e até mesmo injetar malware nos dispositivos conectados. 
+Essa técnica explora a confiança das pessoas em redes conhecidas e a falta de atenção ao escolher conexões Wi-Fi.
+
+Tecnicas de Defesa contra Engenharia Social
+Conhecimento como defesa seria uma das respostas para o problema, realizar simulaçoes de ataque a fim de comprender quais as maneiras de respostas adequadas.
+Outro fator importante seria soluções diversas:
+  .Solução antiphishing
+  .Firewalls
+  .Software de Detecção de Intrusão
+  .Software de Segurança para Endpoints
+
+Conclusão
+A engenharia social é uma abordagem poderosa que depende da manipulação psicológica, em vez de falhas tecnológicas. 
+A conscientização e a educação em segurança cibernética são essenciais para proteger-se contra essas ameaças, promovendo a cautela ao lidar com solicitações de informações pessoais 
+e ao acessar redes e sites.
+
+MALWARES
+
+Malware, ou software malicioso, é um termo genérico que se refere a qualquer programa ou arquivo projetado para causar danos a um computador, servidor ou rede. 
+Existem diferentes tipos de malware, incluindo:
+
+Vírus: Se anexa a arquivos executáveis e se propaga quando esses arquivos são executados.
+Worms: Semelhantes a vírus, mas se replicam autonomamente através de redes.
+Trojan: Apresenta-se como software legítimo, mas realiza ações maliciosas quando executado.
+Ransomware: Criptografa os dados do usuário e exige um resgate para liberá-los.
+Spyware: Monitora a atividade do usuário sem seu conhecimento e coleta informações.
+Adware: Exibe anúncios indesejados, frequentemente coletando dados do usuário.
+Botnets: Redes de dispositivos comprometidos que podem ser controladas remotamente para realizar tarefas, como ataques DDoS.
+
+Mirai: Um Malware em Detalhes
+
+O Mirai é um malware específico que se destaca por seu foco em dispositivos IoT. Aqui estão alguns detalhes mais específicos sobre como ele funciona e suas características:
+
+1. Métodos de Invasão:
+Força Bruta: O Mirai utiliza um ataque de força bruta para acessar dispositivos, tentando combinações de senhas comuns, como "admin" ou "123456".
+Vulnerabilidades Conhecidas: O malware também explora vulnerabilidades em dispositivos IoT que não foram atualizados ou que têm falhas de segurança.
+2. Arquitetura da Botnet:
+O Mirai é projetado para formar uma botnet composta por dispositivos IoT. Uma vez que um dispositivo é infectado, ele se conecta a um servidor de comando e controle (C&C), 
+onde recebe instruções.
+A botnet pode incluir milhares de dispositivos, permitindo que o Mirai execute ataques massivos.
+3. Tipos de Ataques:
+Ataques DDoS: O principal uso do Mirai é para realizar ataques DDoS. Ele pode enviar pacotes de dados em grande quantidade para um alvo, sobrecarregando seu servidor.
+Ataques de Amplificação: O Mirai pode explorar protocolos vulneráveis, como DNS ou NTP, para amplificar o tráfego enviado ao alvo, aumentando ainda mais o impacto do ataque.
+4. Consequências dos Ataques:
+Os ataques realizados pelo Mirai tiveram impactos significativos:
+Interrupção de Serviços: Serviços como Twitter, Netflix e Reddit foram afetados por ataques em larga escala, resultando em downtime.
+Prejuízos Financeiros: Empresas sofreram perdas financeiras devido a interrupções e ao custo de mitigação dos ataques.
+5. Mitigação e Prevenção:
+Segurança em Dispositivos IoT: É fundamental mudar senhas padrão, manter firmware atualizado e desativar funcionalidades desnecessárias.
+Firewalls e IDS: Implementar firewalls e sistemas de detecção de intrusão pode ajudar a proteger redes contra ataques DDoS.
+Educação do Usuário: Conscientizar os usuários sobre os riscos associados a dispositivos IoT e melhores práticas de segurança é essencial.
+
+
+
+
+
