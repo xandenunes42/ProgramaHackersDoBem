@@ -1,0 +1,96 @@
+Vulnerabilidades cibernéticas
+
+Apesar de toda a evolução tecnológica e dos inúmeros benefícios que a era digital trouxe à sociedade, nossos dados online se tornaram, também, cada vez mais expostos e sujeitos 
+a vulnerabilidades diversas, que representam pontos fracos no vasto ecossistema digital e proporcionam oportunidades para ataques maliciosos, que podem comprometer a segurança, 
+a privacidade e a integridade dos dados.
+
+OWASP
+A OWASP (Open Web Application Security Project) é uma comunidade online dedicada à segurança de software. Ela fornece diretrizes, ferramentas e recursos para ajudar desenvolvedores 
+e organizações a melhorar a segurança de suas aplicações. Um dos principais produtos da OWASP é a lista das Top Ten, que identifica as dez principais vulnerabilidades de segurança 
+em aplicações web.
+
+Vulnerabilidades da OWASP Top Ten
+
+Controle de Acesso Quebrado:
+Ocorre quando os mecanismos de controle de acesso não são implementados corretamente, permitindo que usuários não autorizados acessem recursos restritos.
+Exemplos: Acesso não autorizado a áreas administrativas ou dados sensíveis.
+
+Falhas de Criptografia:
+Envolve o uso inadequado de algoritmos de criptografia, como a utilização de protocolos fracos (ex: SSL desatualizado) ou não criptografar dados sensíveis em repouso ou em trânsito.
+Consequência: Dados podem ser interceptados e lidos por atacantes.
+
+Injeção (Entrada de Dados):
+Injeção de código malicioso, como SQL Injection, Command Injection, ou Cross-Site Scripting (XSS), onde o atacante injeta dados não confiáveis em comandos ou consultas executados pelo sistema.
+Resultados podem incluir roubo de dados, compromissos de sistemas e execução de comandos não autorizados.
+
+Design Inseguro:
+Falhas na arquitetura de segurança de uma aplicação, que podem permitir exploração de vulnerabilidades antes mesmo do código ser implementado.
+Exemplos: Falta de validação de entrada e de controles de segurança adequados.
+
+Configuração Incorreta de Segurança:
+Resulta de configurações inadequadas em sistemas, servidores e aplicativos que podem expor informações sensíveis ou permitir acessos não autorizados.
+Exemplos: Permissões padrão não alteradas, serviços desnecessários habilitados.
+
+Componentes (Bibliotecas/Frameworks) Desatualizados:
+Uso de bibliotecas ou frameworks que possuem vulnerabilidades conhecidas, podendo ser exploradas por atacantes.
+A manutenção regular e a atualização são essenciais.
+
+Falhas de Identificação e Autenticação:
+Envolve a implementação inadequada de autenticação, como a falta de limites de tentativas de login, senhas fracas ou sistemas de recuperação de senhas inseguros.
+Consequência: Acesso não autorizado pode ser obtido.
+
+Falhas de Integridade de Software/Dados:
+Falhas que permitem que dados ou software sejam alterados sem autorização, levando a possíveis compromissos de integridade.
+Exemplos: Falta de checagem de integridade ou autenticação de dados.
+
+Falhas de Registro e Monitoramento de Segurança:
+Ocorre quando um sistema não registra eventos de segurança adequadamente, dificultando a detecção e resposta a incidentes.
+Importante para análises forenses e resposta a incidentes.
+
+SSRF (Server-Side Request Forgery):
+Ocorre quando um atacante induz um servidor a fazer uma solicitação HTTP a um recurso interno ou externo, muitas vezes levando à exposição de dados internos.
+Consequência: Acesso não autorizado a serviços internos.
+
+Gestão de Vulnerabilidades
+
+Identificação:
+Coleta de Informação: Levantar dados sobre a infraestrutura, ativos e serviços.
+Escaneamentos: Usar ferramentas para detectar vulnerabilidades conhecidas.
+Análise de Código: Examinar o código-fonte em busca de falhas.
+Teste de Penetração: Simular ataques para identificar vulnerabilidades.
+
+Categorização:
+Classificar as vulnerabilidades encontradas por tipo, gravidade e impacto potencial.
+
+Priorização:
+Avaliar e priorizar vulnerabilidades com base no risco que representam para a organização.
+
+Mitigação:
+Implementar correções ou controles para remediar as vulnerabilidades identificadas.
+
+Reavaliação:
+Após a mitigação, reavaliar a segurança do sistema para garantir que as vulnerabilidades foram resolvidas.
+
+Relatório:
+Documentar os achados, ações tomadas e recomendações futuras para a gestão de vulnerabilidades.
+
+Análise de Vulnerabilidade
+
+Avaliação de Riscos: Identificar e analisar riscos associados a vulnerabilidades, considerando a probabilidade e o impacto.
+Uso de Scan de Vulnerabilidades: Implementar ferramentas automatizadas para escanear sistemas e redes em busca de vulnerabilidades conhecidas.
+Tratamento de Risco: Desenvolver estratégias para tratar riscos, que podem incluir aceitação, mitigação, transferência ou eliminação.
+
+Exploits
+
+Os exploits são códigos ou programas que aproveitam vulnerabilidades específicas para comprometer um sistema ou aplicação. Podem ser usados por atacantes para ganhar acesso não autorizado, roubar informações ou causar danos.
+
+Ferramentas
+
+Nessus: Ferramenta de escaneamento de vulnerabilidades amplamente utilizada que identifica e classifica vulnerabilidades em sistemas.
+OWASP ZAP: Ferramenta de segurança de aplicações web, útil para detectar vulnerabilidades em aplicações durante o desenvolvimento.
+OpenVAS: Sistema de escaneamento de vulnerabilidades de código aberto, que fornece uma ampla gama de testes.
+Nexpose: Ferramenta de gerenciamento de vulnerabilidades que ajuda a identificar e remediar riscos em tempo real.
+Nmap: Ferramenta de varredura de redes que pode ser usada para descobrir dispositivos e identificar portas abertas e serviços em execução.
+SIEM e SOAR
+SIEM (Security Information and Event Management): Sistema que reúne e analisa dados de segurança de diferentes fontes, permitindo monitoramento em tempo real e resposta a incidentes.
+SOAR (Security Orchestration, Automation and Response): Conjunto de ferramentas e processos que automatizam a resposta a incidentes e melhoram a eficiência das operações de segurança.
